@@ -65,6 +65,8 @@ static const uint32_t aSRC_Const_Buffer[BUFFER_SIZE] =
   0x71727374, 0x75767778, 0x797A7B7C, 0x7D7E7F80
 };
 
+static uint32_t var;
+
 static uint32_t aDST_Buffer[BUFFER_SIZE];
 
 static __IO uint32_t transferErrorDetected;    /* Set to 1 if an error transfer is detected */
